@@ -1,6 +1,6 @@
 {
   "name": "ember-markdown-it",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Ember addon for working with the markdown-it Markdown parser.",
   "directories": {
     "doc": "doc",
