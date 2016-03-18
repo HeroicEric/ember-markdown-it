@@ -11,7 +11,7 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": "https://github.com/greenfieldhq/ember-markdown-it",
   "engines": {
     "node": ">= 0.10.0"
   },
