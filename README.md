@@ -1,4 +1,4 @@
-# ember-markdown-it
+# ember-markdown-it [![Travis](https://img.shields.io/travis/greenfieldhq/ember-markdown-it.svg)](https://travis-ci.org/greenfieldhq/ember-markdown-it)
 
 An Ember addon that provides a ES2015 module shim for working with the
 [markdown-it][markdown-it] Markdown parser.
