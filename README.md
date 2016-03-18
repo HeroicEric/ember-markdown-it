@@ -1,26 +1,23 @@
-# Ember-markdown-it
+# ember-markdown-it
 
-This README outlines the details of collaborating on this Ember addon.
+An Ember addon that provides a ES2015 module shim for working with the
+[markdown-it][markdown-it] Markdown parser.
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+```
+ember install ember-markdown-it
+```
 
-## Running
+## Usage
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+```javascript
+import markdownit from 'markdown-it';
 
-## Running Tests
+markdownit().render('# A Top Level Header');
+// => "<h1>A Top Level Header</h1>"
+```
 
-* `npm test` (Runs `ember try:testall` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
+Refer to the [markdown-it documentation][markdown-it] for more information.
 
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+[markdown-it]: https://github.com/markdown-it/markdown-it
