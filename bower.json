@@ -1,10 +1,8 @@
 {
   "name": "ember-markdown-it",
   "dependencies": {
-    "ember": "~2.4.1",
-    "ember-cli-shims": "0.1.0",
-    "ember-cli-test-loader": "0.2.2",
-    "ember-qunit-notifications": "0.1.0",
+    "ember": "~2.9.0",
+    "ember-cli-shims": "0.1.3",
     "markdown-it": "^6.0.0"
   }
 }
