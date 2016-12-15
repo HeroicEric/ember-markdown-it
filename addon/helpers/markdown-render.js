@@ -8,13 +8,13 @@ const {
 
 const { htmlSafe } = EmString;
 
-export function markdownRender(params) {
+export function markdownRender(params, options) {
   if (isEmpty(params)) {
     return;
   }
 
-  let [markdown] = params;
-  let html = markdownit().render(markdown);
+  const [markdown] = params;
+  const html = markdownit(options).render(markdown);
 
   return htmlSafe(html);
 }
